@@ -1,0 +1,67 @@
+#soal 1
+nama = "Elon Musk"
+ttl = "28 Juni 1971, Afrika Selatan"
+umur = 50
+alamat = "California, Amerika Serikat"
+kerja = "Pengusaha, teknisi, dan investor"
+
+print("Biodata Idolaku","\nNama :",nama,"\nTempat Tanggal Lahir :",ttl,"\nUmur :",str(umur),"tahun","\nTempat Tinggal :",alamat,"\nPekerjaan :",kerja)
+
+#soal 2
+nama = str(input("Masukan Nama Anda :"))
+print("Halo,",nama,"Salam Kenal!")
+
+#soal 3
+print("Menghitung Luas Ruangan")
+panjang = float(input("\nMasukan Panjang = "))
+lebar = float(input("Masukan Lebar\t= "))
+luas = panjang*lebar
+print("\nLuas Ruangan adalah",luas,"m2")
+
+#soal 4
+n = int(input("Masukan bilangan bulat positif : "))
+sum = (n)*(n+1)*1/2
+print("Jumlah dari n bilangan bulat positif pertama adalah =",int(sum))
+
+#soal 5
+tinggi = float(input("Masukan Tinggi Badan Anda :"))
+satuan = input("Dalam satuan kaki atau inci? ")
+if satuan == "kaki":
+    kaki = tinggi*12*2.54
+    print("Tinggi badan kamu adalah : ",kaki, "cm")
+else:
+    inci = tinggi*2.54
+    print("Tinggi badan kamu adalah : ",inci,"cm")
+    
+#soal 6
+jarak = float(input("Masukan jarak dalam satuan kaki = "))
+inci = jarak*12
+yard = jarak*0.33
+mil = jarak*0.00018939
+print("Satuan jarak dalam inci adalah",inci,"inci")
+print("Satuan jarak dalam yard adalah", yard,"yard")
+print("Satuan jarak dalam mil adalah",mil,"mil")
+
+#soal 7
+print("Menghitung Luas Seitiga")
+a = float(input("\nMasukan Panjang Alas Segitiga = "))
+t = float(input("Masukan Tinggi Segitiga = "))
+area = (a*t)*1/2
+print("\nLuas Segitiga adalah",area,"m2")
+
+#soal 8
+print("Menghitung Body Mass Index")
+tinggi = float(input("\nMasukan tinggi anda dalam meter : "))
+berat = float(input("Masukan berat anda dalam kilogram : "))
+bmi = berat//(tinggi**2)
+print("\nIndex Massa Tubuh anda adalah = ",bmi)
+
+#soal 9 
+tekanan = float(input("Masukan nilai tekanan = "))
+psi = tekanan*0.145
+atm = tekanan*0.00987
+mmhg = tekanan*7.50062
+print(tekanan,"kilopascal")
+print("Tekanan dalam satuan pound per inci persegi adalah",psi,"psi")
+print("Tekanan dalam satuan atmosfer adalah",atm,"atm")
+print("Tekanan dalam satuan milimeter merkuri adalah",mmhg,"mmhg")
